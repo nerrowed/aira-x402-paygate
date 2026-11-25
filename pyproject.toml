@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aira-x402-paygate"
+version = "0.1.0"
+description = 'Aira x402 PayGate: Zero-Dependency HTTP 402 USDC Middleware & Verifier for Python AI Agents'
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["x402", "http-402", "usdc", "ai-agents", "asgi", "fastapi", "crypto-payments"]
+dependencies = []
+
+[project.scripts]
+x402-gate = "aira_x402_paygate.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

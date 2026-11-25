@@ -1,0 +1,19 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Aira x402 PayGate: Zero-Dependency HTTP 402 USDC Middleware & Verifier for Python AI Agents",
+    "version": "1.1.0",
+    "description": "Riset niche (x402 USDC payment middleware and receipt verifier for Python AI agents) menunjukkan lonjakan kebutuhan toolkit Python ringan tanpa dependensi berat untuk memonetisasi endpoint AI Agent memakai standar HTTP 402 (x402) USDC di Base/Arbitrum/Solana dengan proteksi anti-replay dan middleware ASGI siap pakai."
+  },
+  "x-payment-x402": {
+    "asset": "USDC",
+    "price_usd": 0.95,
+    "evm_recipient": "0xD1d2b5a2665C75fb80Fb069Ce04D1fe711a2B349",
+    "solana_recipient": "BgagbXYr125qDFic7cp73SxuSXkwGiUVU7RqnbQD8Ffe",
+    "chains": [
+      "base",
+      "arbitrum",
+      "solana"
+    ]
+  }
+}

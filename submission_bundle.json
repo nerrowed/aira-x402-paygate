@@ -1,0 +1,18 @@
+{
+  "venture_id": "ven-454c14d46c",
+  "title": "Aira x402 PayGate: Zero-Dependency HTTP 402 USDC Middleware & Verifier for Python AI Agents",
+  "niche_category": "micro_saas_api",
+  "payout_wallets": {
+    "evm": "0xD1d2b5a2665C75fb80Fb069Ce04D1fe711a2B349",
+    "solana": "BgagbXYr125qDFic7cp73SxuSXkwGiUVU7RqnbQD8Ffe"
+  },
+  "expected_return_usd": 95.0,
+  "artifacts_sha256": {
+    "openapi_x402_spec.json": "d65c9d363db37757",
+    "test_venture_engine.py": "ff56afa1e799a820",
+    "test_venture_gtm.py": "6fc0289e1d8f8b1b",
+    "venture_engine.py": "7bb4998d63fc9de2",
+    "VENTURE_PLAYBOOK.md": "a0d8c3c9f6a40407"
+  },
+  "ready_for_external_publish": true
+}
